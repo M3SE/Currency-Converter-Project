@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const displayHistoricalRate = async () => {
         const base = baseCurrency.value;
         const target = targetCurrency.value;
-        const date = "2024-07-12";  // Replace with desired date
+        const date = "2024-07-14";  // Correct date
         const rate = await fetchHistoricalExchangeRates(base, target, date);
         if (rate) {
             document.getElementById("historical-rates-container").textContent = 
